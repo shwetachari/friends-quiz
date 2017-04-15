@@ -395,7 +395,9 @@ var chart = d3.select("#chart");
 var bar = chart.selectAll("div");
 var barUpdate = bar.data(sumArray);
 var barEnter = barUpdate.enter().append("div");
-barEnter.style("width", function(d) { return d * 50 + "px"; });
+barEnter.style("width", function(d) { return d * 10 + "%"; });
 barEnter.style("height", "30px");
 barEnter.text(function(d, i) { return labels[i]; });
+
+document.getElementById("chart").scrollIntoView();
 }
