@@ -11,141 +11,330 @@
 		<script src="https://use.fontawesome.com/06591f047d.js"></script>
 </head>
 <body>
-	<h1>Which F.R.I.E.N.D.S character are you?</h1>
+	<h1 class="col-sm-8 col-sm-offset-2 text-center">Which F.R.I.E.N.D.S character are you?</h1>
 	<form class="col-sm-12">
-		<div class="col-sm-6 col-sm-offset-1 questionGroup spectrum" id="one">
+		<div class="col-sm-8 col-sm-offset-2 container-fluid questionGroup spectrum">
 			<!-- Question 1 -->
-			<div class="question col-sm-12" id="qOne">
-				1. You would describe yourself as adventurous.
+			<div class="question col-sm-offset-2" id="qOne">
+				1. You have difficulty in novel social situations.
 			</div>
-			<input type="radio" name="q1" value="sd"/> Strongly Disagree
-			<input type="radio" name="q1" value="d"/> Disagree
-			<input type="radio" name="q1" value="n"/> Neither Agree nor Disagree
-			<input type="radio" name="q1" value="a"/> Agree
-			<input type="radio" name="q1" value="sa"/> Strongly Agree
-		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup spectrum" id="two">
-			<!-- Question 2 -->
-			<div class="question col-sm-12" id="qTwo">
-				2. You have difficulty in novel social situations.
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q1" value="sd"/>
+				<br/>Strongly Disagree
 			</div>
-			<input type="radio" name="q2" value="sd"/> Strongly Disagree
-			<input type="radio" name="q2" value="d"/> Disagree
-			<input type="radio" name="q2" value="n"/> Neither Agree nor Disagree
-			<input type="radio" name="q2" value="a"/> Agree
-			<input type="radio" name="q2" value="sa"/> Strongly Agree
-		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup spectrum" id="three">
-			<!-- Question 3 -->
-			<div class="question col-sm-12" id="qThree">
-				3. You feel superior to other people.
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q1" value="d"/>
+				<br/>Disagree
 			</div>
-			<input type="radio" name="q3" value="sd"/> Strongly Disagree
-			<input type="radio" name="q3" value="d"/> Disagree
-			<input type="radio" name="q3" value="n"/> Neither Agree nor Disagree
-			<input type="radio" name="q3" value="a"/> Agree
-			<input type="radio" name="q3" value="sa"/> Strongly Agree
-		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup spectrum" id="four">
-			<!-- Question 4 -->
-			<div class="question col-sm-12" id="qFour">
-				4. Being organized is more important than being adaptable.
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q1" value="n"/>
+				<br/>Neither Agree nor Disagree
 			</div>
-			<input type="radio" name="q4" value="sd"/> Strongly Disagree
-			<input type="radio" name="q4" value="d"/> Disagree
-			<input type="radio" name="q4" value="n"/> Neither Agree nor Disagree
-			<input type="radio" name="q4" value="a"/> Agree
-			<input type="radio" name="q4" value="sa"/> Strongly Agree
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q1" value="a"/>
+				<br/>Agree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q1" value="sa"/>
+				<br/>Strongly Agree
+			</div>
 		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup spectrum" id="five">
-			<!-- Question 5 -->
-			<div class="question col-sm-12" id="qFive">
+
+		<!-- Question 2 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup spectrum">
+			<div class="question col-sm-offset-2" id="qTwo">
+				2. You feel superior to other people.
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q2" value="sd"/>
+				<br/>Strongly Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q2" value="d"/>
+				<br/>Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q2" value="n"/>
+				<br/>Neither Agree nor Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q2" value="a"/>
+				<br/>Agree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q2" value="sa"/>
+				<br/>Strongly Agree
+			</div>
+		</div>
+
+		<!-- Question 3 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup spectrum">
+			<div class="question col-sm-offset-2" id="qThree">
+				3. Being organized is more important than being adaptable.
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q3" value="sd"/>
+				<br/>Strongly Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q3" value="d"/>
+				<br/>Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q3" value="n"/>
+				<br/>Neither Agree nor Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q3" value="a"/>
+				<br/>Agree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q3" value="sa"/>
+				<br/>Strongly Agree
+			</div>
+		</div>
+
+		<!-- Question 4 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup spectrum">
+			<div class="question col-sm-offset-2" id="qFour">
+				4. You would describe yourself as adventurous.
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q4" value="sd"/>
+				<br/>Strongly Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q4" value="d"/>
+				<br/>Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q4" value="n"/>
+				<br/>Neither Agree nor Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q4" value="a"/>
+				<br/>Agree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q4" value="sa"/>
+				<br/>Strongly Agree
+			</div>
+		</div>
+
+		<!-- Question 5 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup spectrum">
+			<div class="question col-sm-offset-2" id="qFive">
 				5. You had a difficult childhood.
 			</div>
-			<input type="radio" name="q5" value="sd"/> Strongly Disagree
-			<input type="radio" name="q5" value="d"/> Disagree
-			<input type="radio" name="q5" value="n"/> Neither Agree nor Disagree
-			<input type="radio" name="q5" value="a"/> Agree
-			<input type="radio" name="q5" value="sa"/> Strongly Agree
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q5" value="sd"/>
+				<br/>Strongly Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q5" value="d"/>
+				<br/>Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q5" value="n"/>
+				<br/>Neither Agree nor Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q5" value="a"/>
+				<br/>Agree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q5" value="sa"/>
+				<br/>Strongly Agree
+			</div>
 		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup spectrum" id="six">
-			<!-- Question 6 -->
-			<div class="question col-sm-12" id="qSix">
+
+		<!-- Question 6 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup spectrum">
+			<div class="question col-sm-offset-2" id="qSix">
 				6. Your approach to questions/challenges tends to be logic-based.
 			</div>
-			<input type="radio" name="q6" value="sd"/> Strongly Disagree
-			<input type="radio" name="q6" value="d"/> Disagree
-			<input type="radio" name="q6" value="n"/> Neither Agree nor Disagree
-			<input type="radio" name="q6" value="a"/> Agree
-			<input type="radio" name="q6" value="sa"/> Strongly Agree
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q6" value="sd"/>
+				<br/>Strongly Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q6" value="d"/>
+				<br/>Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q6" value="n"/>
+				<br/>Neither Agree nor Disagree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q6" value="a"/>
+				<br/>Agree
+			</div>
+			<div class="col-sm-2 text-center">
+				<input type="radio" name="q6" value="sa"/>
+				<br/>Strongly Agree
+			</div>
 		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup selection" id="seven">
-			<!-- Question 7 -->
-			<div class="question col-sm-12" id="qSeven">
+
+		<!-- Question 7 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup selection">
+			<div class="question col-sm-offset-2" id="qSeven">
 				7. What would you order at Central Perk?
 			</div>
-			<input type="radio" name="q7" value="mo"/> Non-fat Cappuccino
-			<br/><input type="radio" name="q7" value="ra"/> Mocha Latte
-			<br/><input type="radio" name="q7" value="ro"/> Americano
-			<br/><input type="radio" name="q7" value="ch"/> Flat White
-			<br/><input type="radio" name="q7" value="ph"/> Herbal Tea
-			<br/><input type="radio" name="q7" value="jo"/> Cappuccino and a Muffin
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q7" value="mo"/>
+				<br/>Non-fat Cappuccino
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q7" value="ra"/>
+				<br/>Mocha Latte
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q7" value="ro"/>
+				<br/>Americano
+			</div>
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q7" value="ch"/>
+				<br/>Decaf
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q7" value="ph"/>
+				<br/>Herbal Tea
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q7" value="jo"/>
+				<br/>Cappuccino and a Muffin
+			</div>
 		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup selection" id="eight">
-			<!-- Question 8 -->
-			<div class="question col-sm-12" id="qEight">
+
+		<!-- Question 8 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup selection">
+			<div class="question col-sm-offset-2" id="qEight">
 				8. What is your favorite color?
 			</div>
-			<input type="radio" name="q8" value="ro"/> Red
-			<br/><input type="radio" name="q8" value="ra"/> Purple
-			<br/><input type="radio" name="q8" value="mo"/> White
-			<br/><input type="radio" name="q8" value="ph"/> Green
-			<br/><input type="radio" name="q8" value="jo"/> Yellow
-			<br/><input type="radio" name="q8" value="ch"/> Brown
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q8" value="ro"/>
+				<br/>Red
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q8" value="ra"/>
+				<br/>Purple
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q8" value="mo"/>
+				<br/>White
+			</div>
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q8" value="ph"/>
+				<br/>Green
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q8" value="jo"/>
+				<br/>Yellow
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q8" value="ch"/>
+				</br>Brown
+			</div>
 		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup selection" id="nine">
-			<!-- Question 9 -->
-			<div class="question col-sm-12" id="qNine">
+
+		<!-- Question 9 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup selection">
+			<div class="question col-sm-offset-2" id="qNine">
 				9. Which proverb appeals to you?
 			</div>
-			<input type="radio" name="q9" value="mo"/> "Love is blind."
-			<br/><input type="radio" name="q9" value="jo"/> "Better late than never."
-			<br/><input type="radio" name="q9" value="ch"/> "Fear is stronger than love."
-			<br/><input type="radio" name="q9" value="ra"/> "Never too late to learn."
-			<br/><input type="radio" name="q9" value="ro"/> "All is fair in love and war."
-			<br/><input type="radio" name="q9" value="ph"/> "Things aren't always what they seem."
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q9" value="mo"/>
+				<br/>"Love is blind."
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q9" value="jo"/>
+				<br/>"Better late than never."
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q9" value="ch"/>
+				<br/>"Fear is stronger than love."
+			</div>
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q9" value="ra"/>
+				<br/>"Never too late to learn."
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q9" value="ro"/>
+				<br/>"All is fair in love and war."
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q9" value="ph"/>
+				<br/>"Things aren't always what they seem."
+			</div>
 		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup selection" id="ten">
-			<!-- Question 10 -->
-			<div class="question col-sm-12" id="qTen">
+
+		<!-- Question 10 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup selection">
+			<div class="question col-sm-offset-2" id="qTen">
 				10. Pick a Pixar Film/Franchise:
 			</div>
-			<br/><input type="radio" name="q10" value="jo"/> Finding Nemo, Finding Dory
-			<input type="radio" name="q10" value="ro"/> Toy Story 1-3
-			<br/><input type="radio" name="q10" value="ph"/> Inside Out
-			<br/><input type="radio" name="q10" value="ch"/> Monsters Inc., Monsters University
-			<br/><input type="radio" name="q10" value="ra"/> Brave
-			<br/><input type="radio" name="q10" value="mo"/> Wall-E
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q10" value="jo"/>
+				<br/>Finding Nemo
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q10" value="ro"/>
+				<br/>Toy Story
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q10" value="ph"/>
+				<br/>Inside Out
+			</div>
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q10" value="ch"/>
+				<br/>Monsters Inc.
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q10" value="ra"/>
+				<br/>Brave
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q10" value="mo"/>
+				<br/>Wall-E
+			</div>
 		</div>
-		<div class="col-sm-6 col-sm-offset-1 questionGroup selection" id="eleven">
-			<!-- Question 11 -->
-			<div class="question col-sm-12" id="qEleven">
+
+		<!-- Question 11 -->
+		<div class="container-fluid col-sm-8 col-sm-offset-2 questionGroup selection">
+			<div class="question col-sm-offset-2" id="qEleven">
 				11. Pick a Dessert:
 			</div>
-			<input type="radio" name="q11" value="chRa"/> Cheesecake
-			<br/><input type="radio" name="q11" value="mo"/> Flan
-			<br/><input type="radio" name="q11" value="jo"/> <!-- Chocolate --> Cake
-			<br/><input type="radio" name="q11" value="ro"/> Frozen Yogurt
-			<br/><input type="radio" name="q11" value="ph"/> Cookies
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q11" value="chRa"/> Cheesecake
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q11" value="mo"/> Flan
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q11" value="jo"/> <!-- Chocolate --> Cake
+			</div>
+			<div class="col-sm-2 col-sm-offset-2 text-center">
+				<input type="radio" name="q11" value="ro"/> Frozen Yogurt
+			</div>
+			<div class="col-sm-2 col-sm-offset-1 text-center">
+				<input type="radio" name="q11" value="ph"/> Cookies
+			</div>
 		</div>
 		<br />
 	</form>
-	<button class="col-sm-3 col-sm-offset-1" id="submit" onclick="getResults">Who am I?</button>
+	<button class="col-sm-3 col-sm-offset-1" id="submit" onclick="getResults()">Who am I?</button>
+
+	<div class="col-sm-11 col-sm-offset-1" id="result"></div>
+	<div class="col-sm-12" id="chart"></div>
 
 
+	<!-- D3 -->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
+	<!-- Bootstrap: Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- local js files -->
 	<script src="js/main.js"></script>
 </body>
 </html>
