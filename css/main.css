@@ -39,6 +39,7 @@ h1{
   font-size: 70px;
   margin-top:40px;
   margin-bottom:50px;
+  color: rgb(74, 44, 37);
 }
 .questionGroup {
   margin-bottom:80px;
@@ -51,6 +52,7 @@ h1{
   font-weight:bold;
   margin-bottom:20px;
   font-size:30px;
+  color: rgb(74, 44, 37);
 }
 .q9 {
   font-size:17px !important;
@@ -94,7 +96,7 @@ button {
 #chart div {
   font-size: 14px;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: steelblue;
+  background-color: rgb(74, 44, 37);
   text-align: right;
   padding: 3px;
   margin: 1px;
@@ -102,6 +104,7 @@ button {
   max-width: inherit;
 }
 /*end chart styles*/
+/*media queries*/
 @media(max-width:900px){
   .frost{
     width:95%;
